@@ -64,12 +64,11 @@ ml-pipeline-dvc-mlflow/
 ## 📊 Pipeline Workflow
 
 ```mermaid
-graph LR
-A[Raw Data] --> B[Preprocessing]
-B --> C[Training (Random Forest)]
-C --> D[Evaluation]
-D --> E[MLflow Tracking]
-```
+flowchart LR
+    A[Raw Data] --> B[Preprocessing]
+    B --> C[Training - Random Forest]
+    C --> D[Evaluation]
+    D --> E[MLflow Tracking]
 
 ---
 
