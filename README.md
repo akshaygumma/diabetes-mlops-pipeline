@@ -61,17 +61,6 @@ ml-pipeline-dvc-mlflow/
 
 ---
 
-## 📊 Pipeline Workflow
-
-```mermaid
-flowchart LR
-    A[Raw Data] --> B[Preprocessing]
-    B --> C[Training - Random Forest]
-    C --> D[Evaluation]
-    D --> E[MLflow Tracking]
-
----
-
 ## 🔎 Pipeline Stages
 
 ### 🔹 Preprocessing
